@@ -1,0 +1,118 @@
+.divNameOfStore{
+
+}
+
+.nameOfStore {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.divAboutCategory{
+    display: flex;
+    position: relative;
+    cursor: pointer;
+}
+
+.divNameOfCategory{
+
+}
+
+.nameOfCategory{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+.downArrow{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 27px;
+    bottom: 27px;
+    right: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.twoCards{
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.oneCard{
+    display: flex;  
+    justify-content: center; 
+    align-items: center;  
+}
+
+.card{
+    border-style: solid;
+    display: flex;
+    width: 500px;
+    border-radius: 15px;
+    margin-left: 200px;
+}
+
+.cardFinal{
+    border-style: solid;
+    display: flex;
+    width: 500px;
+    border-radius: 15px;
+    /* margin-left: 200px; */
+}
+
+.cardSecond{
+    border-style: solid;
+    display: flex;
+    width: 500px;
+    border-radius: 15px;
+    position: absolute;
+    right: 200px;
+}
+
+.imageFromCard{
+    height: 150px;
+    /* width: 150px; */
+    overflow: hidden;
+    margin-left: 20px;
+}
+
+.imageFromCard2{
+    height: 130px;
+    /* width: 150px; */
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.imageFromCard3{
+    height: 130px;
+    width: 170px;
+    /* width: 150px; */
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nameAndPrice{
+    width: 100%;
+    margin-left: -30px;
+}
+
+.nameOfProduct{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.priceOfProduct{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+}
