@@ -14,17 +14,17 @@
         </h1>
     </div>
 
-    <div class="divAboutCategory">
+    <div onclick="containersDisplay(), reverseArrow1()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Ëмкости
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow1" class="downArrow" src="image/arrow.png">
     </div>
 
-    <div>
+    <div class="containerOff" id="containers">
         <div class="twoCards">
             <div class="card">
                 <img class="imageFromCard" src="image/vedro55.jpg">
@@ -126,17 +126,17 @@
         </div>
     </div>
 
-    <div class="divAboutCategory">
+    <div onclick="mushroomsDisplay()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Грибы
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow2" class="downArrow" src="image/arrow.png">
     </div>
 
-    <div>
+    <div class="containerOff" id="mushrooms">
         <div class="twoCards">
             <div class="card">
                 <img class="imageFromCard3" src="image/true gruzdi.jpg">
@@ -160,20 +160,20 @@
         </div>
     </div>
 
-    <div class="divAboutCategory">
+    <div onclick=" foodAdditivesDisplay()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Пищевые добавки
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow3" class="downArrow" src="image/arrow.png">
     </div>
 
-    <div>
+    <div class="containerOff" id="foodAdditives">
         <div class="twoCards">
             <div class="card">
-                <img class="imageFromCard3" src="image/benzoat natria.jpg">
+                <img class="imageFromCard3" src="image/true benzoat 3.jpg">
     
                 <div class="nameAndPrice">
                     <p class="nameOfProduct">Бензоат натрия 25 кг</p>
@@ -183,7 +183,7 @@
             </div>
     
             <div class="cardSecond">
-                <img class="imageFromCard3" src="image/glutomat natria.jpg">
+                <img class="imageFromCard3" src="image/true glutomat.jpg">
     
                 <div class="nameAndPrice">
                     <p class="nameOfProduct">Глутомат натрия 25 кг</p>
@@ -206,17 +206,17 @@
         </div>
     </div>
 
-    <div class="divAboutCategory">
+    <div onclick="dyesDisplay()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Красители
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow4" class="downArrow" src="image/arrow.png">
     </div>
 
-    <div>
+    <div class="containerOff" id="dyes">
         <div class="twoCards">
             <div class="card">
                 <img class="imageFromCard3" src="image/karamurzin new.jpg">
@@ -262,17 +262,17 @@
         </div>
     </div>
 
-    <div class="divAboutCategory">
+    <div onclick="seasoningsDisplay()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Приправы
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow5" class="downArrow" src="image/arrow.png">
     </div>
 
-    <div>
+    <div class="containerOff" id="seasonings">
         <div class="twoCards">
             <div class="card">
                 <img class="imageFromCard3" src="image/22596.650@2x.jpg">
@@ -352,25 +352,97 @@
         </div>
     </div>
 
-    <div class="divAboutCategory">
+    <div onclick="foodDisplay()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Продукты питания
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow6" class="downArrow" src="image/arrow.png">
     </div>
 
-    <div class="divAboutCategory">
+    <div class="containerOff" id="food">
+        <div class="twoCards">
+            <div class="card">
+                <img class="imageFromCard3" src="image/sparga.jpg">
+    
+                <div class="nameAndPrice">
+                    <p class="nameOfProduct">Спаржа резанная 9 кг</p>
+    
+                    <p class="priceOfProduct">3900 рублей</p>
+                </div>
+            </div>
+    
+            <div class="cardSecond">
+                <img class="imageFromCard3" src="image/kapusta.jpg">
+    
+                <div class="nameAndPrice">
+                    <p class="nameOfProduct">Морская капуста 10 кг</p>
+    
+                    <p class="priceOfProduct">1050 рублей</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div onclick="othersDisplay()" class="divAboutCategory">
         <div class="divNameOfCategory">
             <p class="nameOfCategory">
                 Прочее
             </p>
         </div>
 
-        <img class="downArrow" src="image/arrow.png">
+        <img id="arrow7" class="downArrow" src="image/arrow.png">
     </div>
+
+    <div class="containerOff" id="others">
+        <div class="twoCards">
+            <div class="card">
+                <img class="imageFromCard3" src="image/gorchica.jpg">
+    
+                <div class="nameAndPrice">
+                    <p class="nameOfProduct">Горчичный порошок 20 кг</p>
+    
+                    <p class="priceOfProduct">101 рублей</p>
+                </div>
+            </div>
+    
+            <div class="cardSecond">
+                <img class="imageFromCard3" src="image/limon true.jpg">
+    
+                <div class="nameAndPrice">
+                    <p class="nameOfProduct">Лимонная кислота 25 кг</p>
+    
+                    <p class="priceOfProduct">130 рублей</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="twoCards">
+            <div class="card">
+                <img class="imageFromCard3" src="image/maslo.jpg">
+    
+                <div class="nameAndPrice">
+                    <p class="nameOfProduct">Масло подсолнечное 5 л.</p>
+    
+                    <p class="priceOfProduct">650 рублей</p>
+                </div>
+            </div>
+    
+            <div class="cardSecond">
+                <img class="imageFromCard3" src="image/kukuruza.jpg">
+    
+                <div class="nameAndPrice">
+                    <p class="nameOfProduct">Початки кукурузы молодые <br> 3.5 кг</p>
+    
+                    <p class="priceOfProduct">915 рублей</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
     
 </body>
 </html>
